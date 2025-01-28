@@ -1,8 +1,14 @@
-var nilai = 10;
-var nilai2 = 20;
-
-if (nilai == nilai2) {
-  console.log("Nilai sama");
+if ("risky" == "ganteng") {
+    console.log("fitnah");
 } else {
-  console.log("Nilai tidak sama");
+    console.log("betul");
+}
+
+var x = 10;
+var y = 20;
+
+if (x > y) {
+    console.log("x lebih besar dari y");
+} else {
+    console.log("x lebih kecil dari y");
 }
