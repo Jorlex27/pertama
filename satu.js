@@ -1,14 +1,24 @@
-if ("risky" == "ganteng") {
-    console.log("fitnah");
+var ganteng = 100
+var jelek = 0
+
+if (ganteng > jelek) {
+    console.log("ganteng lebih besar dari jelek")
 } else {
-    console.log("betul");
+    console.log("ganteng kurang dari jelek")
 }
 
-var x = 10;
-var y = 20;
+if (ganteng == jelek) {
+    console.log("ganteng sama dengan jelek")
+}
 
-if (x > y) {
-    console.log("x lebih besar dari y");
-} else {
-    console.log("x lebih kecil dari y");
+if (ganteng < jelek) {
+    console.log("ganteng lebih kecil dari jelek")
+}
+
+if (ganteng >= jelek) {
+    console.log("ganteng lebih besar atau sama dengan jelek")
+}
+
+if (ganteng <= jelek) {
+    console.log("ganteng kurang atau sama dengan jelek")
 }
