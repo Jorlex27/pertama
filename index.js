@@ -30,23 +30,3 @@ var name = "Joko";
 var role = "member baru";
 var birthMonth = "Januari";
 //  your code here
-
-if (name){
-    if (role === "member baru"){
-        if (birthMonth === "Januari"){
-            console.log(`Selamat ${name}!. Anda berhak mendapatkan voucher diskon sebesar 50%!`)
-        }else {
-            console.log(`Maaf ${name}, voucher diskon hanya untuk yang lahir di bulan Januari.`)
-        }
-    }else if (role === "member lama"){
-        if (birthMonth === "Januari"){
-            console.log(`Selamat ${name}!. Anda berhak mendapatkan voucher diskon sebesar 30%!`)
-        }else {
-            console.log(`Maaf ${name}, voucher diskon hanya untuk yang lahir di bulan Januari.`)
-        }
-    } else {
-        console.log(`Selamat datang di Bikilipik, ${name}. Mohon maaf untuk mendapatkan voucher diskon, anda wajib mendaftar dahulu.`)
-    }
-} else {
-    console.log("Nama tidak boleh kosong!")
-}
