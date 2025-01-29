@@ -1,26 +1,9 @@
-var cubek = 'cubek'
+var string = "Hello World";
+var string2 = 'Hello World';
+var string3 = `Hello World`;
 
-var ganteng = 50
+var number = 123;
+var number2 = 123.456;
 
-if (ganteng < 100) {
-    if (ganteng > 50) {
-        console.log(`Alfin agek ganteng tapi boong`)
-    } else {
-        console.log(`Alfin agek monyet`)
-    }
-} else {
-    console.log(`Alfin agek ganteng tapi boong`)
-}
-
-var name = ''
-
-if (name === '') {
-    console.log('Nama tidak boleh kosong')
-} else if (name === 'alfin') {
-    console.log('Alfin tidak boleh masuk')
-} else {
-    console.log('Selamat datang di Bikilipik, ' + name + '. Mohon maaf untuk mendapatkan voucher diskon, anda wajib mendaftar dahulu')
-}
-
-console.log(`alfin ${cubek}`)
-console.log('alfin ' + cubek)
+var boolean = true;
+var boolean2 = false;

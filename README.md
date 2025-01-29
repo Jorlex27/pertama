@@ -1,62 +1,41 @@
-# Latihan If-Else dan Nested If
+# Latihan If-Else dengan Tipe Data Sederhana
 
-## Langkah 1: Latihan If-Else Dasar
+## Soal: Sistem Warung Makan
 
-### Soal: Sistem Parkir Sederhana
-Buatlah program untuk menentukan biaya parkir berdasarkan jenis kendaraan.
-
-```javascript
-// Diberikan variable:
-var jenisKendaraan; // "motor" atau "mobil"
-
-// Aturan biaya parkir:
-// - Jika motor: Rp 2000
-// - Jika mobil: Rp 5000
-```
-
-Contoh Test Case:
-```javascript
-// Test Case 1
-var jenisKendaraan = "motor";
-// output: "Biaya parkir: Rp 2000"
-
-// Test Case 2
-var jenisKendaraan = "mobil";
-// output: "Biaya parkir: Rp 5000"
-```
-
-
-## Langkah 2: Latihan Nested If (Dimodifikasi)
-
-### Soal: Sistem Bioskop
-Buatlah program untuk mengecek apakah seseorang boleh menonton film berdasarkan umur dan status pendampingan.
+Buatlah program untuk menghitung harga makanan di warung.
 
 ```javascript
 // Diberikan variable:
-var umur; // angka
-var statusPendampingan; // "didampingi" atau "tidak didampingi"
+var namaPembeli; // string
+var jenisMakanan; // string ("nasi goreng" atau "mie goreng")
+var isPakai_telur; // boolean (true/false)
 
 // Aturan:
-// - Jika umur di atas 13 tahun: Boleh nonton
-// - Jika umur 13 tahun ke bawah:
-//   * Jika statusPendampingan "didampingi": Boleh nonton
-//   * Jika statusPendampingan "tidak didampingi": Tidak boleh nonton
+// 1. Nama pembeli tidak boleh kosong
+// 2. Harga makanan:
+//    - Nasi goreng: Rp 10000
+//    - Mie goreng: Rp 8000
+// 3. Jika pakai telur, tambah Rp 3000
 ```
 
-Contoh Test Case:
+### Contoh Test Case:
+
 ```javascript
-// Test Case 1
-var umur = 15;
-var statusPendampingan = "tidak didampingi";
-// output: "Silakan masuk, selamat menonton!"
+// Test Case 1: Nama Kosong
+var namaPembeli = "";
+var jenisMakanan = "nasi goreng";
+var isPakai_telur = true;
+// output: "Mohon maaf, nama pembeli tidak boleh kosong"
 
-// Test Case 2
-var umur = 12;
-var statusPendampingan = "didampingi";
-// output: "Silakan masuk, selamat menonton!"
+// Test Case 2: Nasi Goreng + Telur
+var namaPembeli = "Budi";
+var jenisMakanan = "nasi goreng";
+var isPakai_telur = true;
+// output: "Halo Budi, total harga nasi goreng telur adalah Rp 13000"
 
-// Test Case 3
-var umur = 12;
-var statusPendampingan = "tidak didampingi";
-// output: "Maaf, tidak boleh nonton karena harus didampingi!"
+// Test Case 3: Mie Goreng Tanpa Telur
+var namaPembeli = "Ani";
+var jenisMakanan = "mie goreng";
+var isPakai_telur = false;
+// output: "Halo Ani, total harga mie goreng adalah Rp 8000"
 ```
