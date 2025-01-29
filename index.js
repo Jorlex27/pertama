@@ -1,4 +1,4 @@
-var isOke = false;
-var umur = 15;
-
-console.log(umur)
+var namaPembeli = "Budi";
+var umurAnak = 7;
+var totalBelanja = 50000;
+var membawaPermen = true;
