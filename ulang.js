@@ -22,3 +22,4 @@ if (name !== "") {
 } else {
     console.log("Mohon maaf, nama pembeli tidak boleh kosong");
 }
+
