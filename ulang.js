@@ -1,25 +1,16 @@
-var umur = 15;
-var statusPendampingan = "tidak didampingi";
-var name = ""
+/*
+math.round
+math.floor
+math.min
+math.max
+math.random
 
+*/
 
-if (name === "") {
-    console.log("Mohon maaf, nama pembeli tidak boleh kosong");
-} else {
-    if (umur < 10) {
-        console.log(`Halo ${name}, umur anda ${umur} tahun, status pendampingan ${statusPendampingan} dan anda tidak boleh makan lagi`);
-    } else {
-        console.log(`Halo ${name}, umur anda ${umur} tahun, status pendampingan ${statusPendampingan} dan anda boleh makan lagi`);
-    }
-}
+let number = 98
 
-if (name !== "") {
-    if (umur < 10) {
-        console.log(`Halo ${name}, umur anda ${umur} tahun, status pendampingan ${statusPendampingan} dan anda tidak boleh makan lagi`);
-    } else {
-        console.log(`Halo ${name}, umur anda ${umur} tahun, status pendampingan ${statusPendampingan} dan anda boleh makan lagi`);
-    }
-} else {
-    console.log("Mohon maaf, nama pembeli tidak boleh kosong");
-}
+// () : invoc
+console.log(number / 60)
+console.log(Math.round(number / 60))
+console.log(number % 60)
 
